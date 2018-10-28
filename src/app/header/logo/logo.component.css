@@ -1,0 +1,12 @@
+.container {
+
+    align-items: center;
+    justify-content: center;
+    /* display: inline-flex; */
+    margin: 0;
+    /* float: left; */
+    /* padding-left: 1cm; */
+    /* margin-left: 10px;
+    margin: auto; */
+    width: 100%;
+ }

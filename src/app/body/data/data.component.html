@@ -1,0 +1,7 @@
+<div id="container" *ngIf=" movies.length > 0">
+  <div *ngFor="let movie of movies">
+    <!-- <h2>{{movie.name}}</h2>
+    <h2>{{movie.title}}</h2> -->
+    <app-cards [movie]="movie"></app-cards> 
+  </div>
+</div>
